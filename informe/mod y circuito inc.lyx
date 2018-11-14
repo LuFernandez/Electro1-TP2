@@ -1,0 +1,360 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Subsection
+Modelo Incremental
+\end_layout
+
+\begin_layout Standard
+Definiendo los estimadores 
+\begin_inset Formula $r_{o_{1}}$
+\end_inset
+
+ y 
+\begin_inset Formula $hîe_{1}$
+\end_inset
+
+ de la siguiente manera, y tomando 
+\begin_inset Formula $V_{A}=80V$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{1}{hôe_{1}}=r_{o_{1}}=\frac{V_{A}}{I_{CQ_{1}}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+hîe_{1}=(1+hfe_{1})\frac{V_{T}}{I_{CQ_{1}}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+y de manera análoga para 
+\begin_inset Formula $r_{o_{2}}$
+\end_inset
+
+ y 
+\begin_inset Formula $hîe_{2}$
+\end_inset
+
+; con los valores de corrientes de colector ya calculadas, obtenemos los
+ valores para los estimadores:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\begin{cases}
+r_{o_{1}}=2.9M\varOmega & hîe_{1}=107k\varOmega\\
+r_{o_{2}}=26.7k\varOmega & hîe_{2}=962\varOmega
+\end{cases}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Circuito Incremental
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename circuito incremental.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Circuito incremental.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En principio, definimos la ganancia de tensión sin y con el generador, y
+ la ganancia de corriente, respectivamente.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+\Delta V\triangleq\frac{V_{o}}{V_{i}}\\
+\Delta V_{s}\triangleq\frac{V_{o}}{V_{s}}\\
+\Delta I\triangleq\frac{I_{d}'}{I_{b_{1}}}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Entonces, utilizando variables comodín, calculamos la ganancia de tensión:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Delta V=\frac{V_{o}}{i_{b_{2}}}.\frac{i_{b_{2}}}{i_{b_{1}}}.\frac{i_{b_{1}}}{V_{i}}=\frac{i_{b_{2}}(1+hfe_{2})Rd'}{i_{b_{2}}}.\frac{(1+hfe_{1})}{Ri}=1.098
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+que resulta casi unitaria.
+ De manera análoga, podemos calcular la ganancia respecto de la tensión
+ del generador, sabiendo que 
+\begin_inset Formula $\frac{V_{i}}{V_{s}}=\frac{Ria}{Ria+Rs}$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Delta V_{s}=\frac{V_{o}}{V_{i}}.\frac{V_{i}}{V_{s}}=\Delta V.\frac{Ria}{Ria+Rs}=1.0975
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Además, resulta la ganancia de corriente
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Delta I=\frac{I_{d}'}{I_{b_{1}}}=\frac{I_{d}'}{I_{b_{2}}}.\frac{I_{b_{2}}}{I_{b_{1}}}=(1+hfe_{1})(1+hfe_{2})=12.3k
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cabe aclarar que para el cálculo de las ganancias no se tuvieron en cuenta
+ los valores de 
+\begin_inset Formula $r_{o_{1}}$
+\end_inset
+
+ y 
+\begin_inset Formula $r_{o_{2}}$
+\end_inset
+
+, pues complicaban el cálculo.
+ Por otro lado, se calcularon las impedancias de entrada y salida activas.
+ En la figura superior, se observa la de entrada activa, es decir Ria, y
+ la de salida activa Roa, que es la vista desde 
+\begin_inset Formula $ro2$
+\end_inset
+
+ desde la salida.
+ Por un lado, para la impedancia de entrada, 
+\begin_inset Formula $Ria=Ri//RB$
+\end_inset
+
+, siendo Ri:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Ri=hie_{1}+hie_{2}(1+hfe_{1})+Rd'(1+hfe_{1})(1+hfe_{2})=299.5M\varOmega
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ésto equivale a 
+\begin_inset Formula $Ria=1.3M\varOmega$
+\end_inset
+
+ tomando 
+\begin_inset Formula $RB=1.36M\varOmega$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Por otro lado, para el análisis de la impedancia de salida, se pasiva la
+ tensión de entrada, y se coloca una fuente a la salida, con polaridad invertida
+ a lo convencional.
+ Esta tensión de prueba es 
+\begin_inset Formula $Vop$
+\end_inset
+
+, y se define 
+\begin_inset Formula $Iop$
+\end_inset
+
+ como la corriente que circula por la misma, calculando de esta manera Ro*,
+ y sabiendo que la impedancia de salida activa será 
+\begin_inset Formula $Roa=Ro^{*}//r_{o_{2}}.$
+\end_inset
+
+ Con ésto en mente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Ro^{*}\triangleq\frac{Vop}{Iop}=\frac{I_{b_{1}}hie_{1}+I_{b_{1}}(1+hfe_{1})hie_{2}}{I_{b_{1}}(1+hfe_{1})(1+hfe_{2})}\approx\frac{hie_{2}}{1+hfe_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Y como ya dijimos, Roa es el paralelo entre 
+\begin_inset Formula $Ro^{*}$
+\end_inset
+
+ y 
+\begin_inset Formula $r_{o_{2}}$
+\end_inset
+
+.
+ Con lo que el valor de la impedancia activa de salida resulta en:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Roa=8.66\varOmega
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
