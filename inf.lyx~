@@ -1,0 +1,709 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Subsection
+
+\lang spanish
+Polarización 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Analizando el circuito presentado, en régimen permanente se llegó al siguiente
+ circuito de polarización equivalente:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang spanish
+\begin_inset Graphics
+	filename imagenes/circuito pol.png
+	lyxscale 40
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang spanish
+Circuito analizado para la polarización
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Para comenzar con nuestro análisis, se plantearon las siguientes ecuaciones:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+\begin{cases}
+V_{GS}=I_{D}R-V_{EE} & \,\,\,\,\,\,\,(1)\\
+\\
+I_{D}=I_{DSS}\left(1-\frac{V_{GS}}{V_{P}}\right)^{2} & \,\,\,\,\,\,\,(2)
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Teniendo los datos de 
+\begin_inset Formula $I_{DSS}$
+\end_inset
+
+ y 
+\begin_inset Formula $V_{P}$
+\end_inset
+
+ a partir de la hoja de datos del JFET:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+I_{DSS}=20mA
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+V_{P}=-8V
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Despejamos de las ecuaciones (1) y (2) los valores de 
+\begin_inset Formula $I_{D}$
+\end_inset
+
+ y 
+\begin_inset Formula $V_{GS}$
+\end_inset
+
+ sabiendo que 
+\begin_inset Formula $R=3.4k\varOmega$
+\end_inset
+
+ y que 
+\begin_inset Formula $V_{EE}=-15V$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+I_{D}=3mA
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+V_{GS}=-4.8V
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Por otro lado, recorremos la malla de entrada del circuito de la figura
+ y obtenemos:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+V_{DS}=2V_{CC}-I_{B_{1}}R_{B}-2V_{BE_{on}}-RI_{D}=18,26V
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Debemos aclarar que tomamos 
+\begin_inset Formula $V_{BE_{on}}=0.6V$
+\end_inset
+
+ para ambos transistores BJT.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Notemos que el valor de 
+\begin_inset Formula $V_{DS}$
+\end_inset
+
+ es mayor al modulo de 
+\begin_inset Formula $V_{P}.$
+\end_inset
+
+ Eso nos indica que, como era deseado, estamos trabajando en la zona de
+ saturación.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Continuando con el análisis del circuito de la figura anterior, llegamos
+ a las siguiente igualdades para las corrientes:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+\beta=110
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+\frac{I_{C_{1}}}{\beta}=I_{B_{1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+I_{B_{2}}=I_{C_{1}}\,\,\,\,\,\,\,\Longrightarrow\,\,\,\,\,\,\,I_{B_{2}}=\beta I_{B_{1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+\frac{I_{C_{2}}}{\beta}=I_{B_{2}}\,\,\,\,\,\,\Longrightarrow\,\,\,\,\,\,\,\,I_{C_{2}}=\beta^{2}I_{B_{1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+I_{C_{2}}=I_{D}=3mA
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+En definitiva, nos quedan:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+\begin{cases}
+I_{B_{1}}=248\mu A\\
+I_{B_{2}}=27.27\mu A\\
+I_{C_{1}}=27.27\mu A\\
+I_{C_{2}}=3mA
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Recorriendo las mallas de salida de los transistores BJT obtenemos las siguiente
+s ecuaciones:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+\begin{cases}
+V_{CC}-V_{CE_{1}}-V_{BE_{2}}-RI_{D}=0\\
+\\
+V_{CC}-V_{CE_{2}}-I_{D}R=0
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Tomando 
+\begin_inset Formula $V_{CC}=15V$
+\end_inset
+
+, obtenemos los siguientes resultados
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+V_{CE_{1}}=4.2V
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Formula 
+\[
+V_{CE_{2}}=4.8V
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+Con los valores obtenidos para 
+\begin_inset Formula $I_{B}$
+\end_inset
+
+ y 
+\begin_inset Formula $V_{CE}$
+\end_inset
+
+ de los transistores, se puede ver como nuestros transistores caen en la
+ zona de operación segura.
+ A continuación se mostrara el gráfico de la hoja de datos con el cual se
+ verifico lo antes mencionado.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang spanish
+\begin_inset Graphics
+	filename imagenes/datasheer.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang spanish
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang spanish
+Verificación de zona de operacion segura
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

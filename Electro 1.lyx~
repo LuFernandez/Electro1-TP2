@@ -1,0 +1,1262 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%	TITLE PAGE
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Suppresses displaying the page number on the title page and the subsequent
+ page counts as page 1
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset FormulaMacro
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Defines a new command for horizontal lines, change thickness here
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Centre everything on the page
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%	Headings
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\shape smallcaps
+\size largest
+Instituto Tecnológico de Buenos Aires
+\shape default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[1.5cm]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Main heading such as the name of your university/college
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\shape smallcaps
+\size larger
+22.59 Electrónica I
+\shape default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[0.5cm]
+\end_layout
+
+\end_inset
+
+  
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size huge
+\lang spanish
+Experiencia de Laboratorio N°2
+\size default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[0.4cm]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Title of your document
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+HRule
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[1.5cm]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%	Author(s)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "c"
+hor_pos "l"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "40text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align left
+
+\shape italic
+\size large
+\lang spanish
+Grupo 5:
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+
+\shape smallcaps
+\size large
+\lang spanish
+Fernandez
+\shape default
+, Lucero Guadalupe
+\shape smallcaps
+ 
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+Leg.
+ 57485
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+
+\shape smallcaps
+\size large
+\lang spanish
+Lago, 
+\shape default
+Valentina
+\begin_inset Newline newline
+\end_inset
+
+Leg.
+ 57249
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+
+\shape smallcaps
+\size large
+\lang spanish
+Romarís, 
+\shape default
+Juan Manuel
+\shape smallcaps
+ 
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+Leg.
+ 57108 
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+
+\shape smallcaps
+\size large
+\lang spanish
+Vigón
+\shape default
+, Tomás 
+\begin_inset Newline newline
+\end_inset
+
+Leg.
+ 57327
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+
+\size large
+\lang spanish
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Your name
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+ 
+\begin_inset Box Frameless
+position "c"
+hor_pos "l"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "40text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align right
+
+\shape italic
+\size large
+\lang spanish
+Profesores:
+\end_layout
+
+\begin_layout Plain Layout
+\align right
+
+\size large
+\lang spanish
+Alcocer, Fernando 
+\end_layout
+
+\begin_layout Plain Layout
+\align right
+
+\size large
+\lang spanish
+Gardella, Pablo
+\end_layout
+
+\begin_layout Plain Layout
+\align right
+
+\size large
+\lang spanish
+Oreglia, Eduardo
+\end_layout
+
+\begin_layout Plain Layout
+\align right
+
+\size large
+\lang spanish
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Supervisor's name
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% If you don't want a supervisor, uncomment the two lines below and comment
+ the code above
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%{
+\backslash
+large
+\backslash
+textit{Author}}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%John 
+\backslash
+textsc{Smith} % Your name
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%	Date
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\size large
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+large{Presentado: 
+\backslash
+today}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{minipage}{0.4125
+\backslash
+textwidth}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{minipage}
+\end_layout
+
+\end_inset
+
+
+\size default
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Date, change the 
+\backslash
+today to a set date if you want to be precise
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%	Logo
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+vfill
+\backslash
+vfill
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+includegraphics[width=0.2
+\backslash
+textwidth]{placeholder.jpg}
+\backslash
+
+\backslash
+[1cm] % Include a department/university logo - this will require the graphicx
+ package
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset VSpace vfill
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+
+\lang spanish-mexico
+Introducción
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+El objetivo del presente trabajo es comprobar en la práctica algunos de
+ los aspectos más destacados de circuitos amplifiadores utilizando transistores
+ dentro de un marco de escasos recursos.
+ A continuación se realiza una breve descripción de los elementos utilizados
+ a lo largo de este trabajo practico.
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish-mexico
+Transistor darlington
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+El par Darlington se basa en la conexión en cascada de dos BJT aprovechando
+ el efecto de amplifiación de corriente del transistor en el cual la corriente
+ de colector es beta veces la de base, 
+\begin_inset Formula $\beta\,i_{B}=i_{C}$
+\end_inset
+
+.
+ El emisor de uno de los transistores se conecta con la base del otro y
+ además comparten colector de manera tal que la corriente amplificada por
+ el primer transistor se amplifica aún más por el segundo .
+ Se puede pensar al par Darlington como un solo transistor BJT con una gran
+ ganancia de corriente.
+ A continuación se muestra la configuración descrita
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename parDarlington.png
+	lyxscale 20
+	scale 8
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Par Darlington
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish-mexico
+Transistor J-Fet
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+El transistor de efecto campo utiliza el voltaje que se aplica a su terminal
+ de entrada para controlar la corriente que fluye a través de este.
+ La corriente de salida fluye por lo que se denomina el 'canal' del transistor
+ que dependiendo de la tensión controladora en el terminal 
+\begin_inset Quotes eld
+\end_inset
+
+Gate
+\begin_inset Quotes erd
+\end_inset
+
+ este se agranda o achica.
+ Análogamente al transistor BJT el emisor y colector se pueden pensar como
+ el 
+\begin_inset Quotes eld
+\end_inset
+
+Drain
+\begin_inset Quotes erd
+\end_inset
+
+ y 
+\begin_inset Quotes eld
+\end_inset
+
+Source
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename JFET Symbol.gif
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Símbolo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename jfet diagram.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Representación
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status collapsed
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename JFET_n-channel.svg.png
+	scale 30
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Curvas características
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+J-Fet
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Tienen tres terminales, denominadas puerta (gate), drenador (drain) y fuente
+ (source).
+ La puerta es la terminal equivalente a la base del BJT.
+ El transistor de efecto de campo se comporta como un interruptor controlado
+ por tensión, donde el voltaje aplicado a la puerta permite hacer que fluya
+ o no corriente entre drenador y fuente.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Así como los transistores bipolares se dividen en NPN y PNP, los de efecto
+ de campo o FET son también de dos tipos: canal n y canal p, dependiendo
+ de si la aplicación de una tensión positiva en la puerta pone al transistor
+ en estado de conducción o no conducción, respectivamente.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+El JFET es un transistor de efecto de campo, es decir, su funcionamiento
+ se basa en las zonas de deplexión que rodean a cada zona P al ser polarizadas
+ inversamente.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Cuando aumentamos la tensión en el diodo compuerta-fuente, las zonas de
+ deplexión se hacen más grandes, lo cual hace que la corriente que va de
+ fuente a drenaje tenga más dificultades para atravesar el canal que se
+ crea entre las zonas de deplexión, cuanto mayor es la tension inversa en
+ el diodo compuerta-fuente, menor es la corriente entre fuente y drenaje.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Por esto, el JFET es un dispositivo controlado por tensión y no por corriente.
+ Casi todos los electrones que pasan a través del canal creado entre las
+ zonas de deplexión van al drenaje, por lo que la corriente de drenaje es
+ igual a la corriente de fuente {
+\backslash
+displaystyle I_{D}=I_{S}} {
+\backslash
+displaystyle I_{D}=I_{S}}.
+\end_layout
+
+\end_body
+\end_document

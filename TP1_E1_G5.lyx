@@ -1,0 +1,3774 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 19mm
+\topmargin 25mm
+\rightmargin 19mm
+\bottommargin 25mm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%	TITLE PAGE
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Suppresses displaying the page number on the title page and the subsequent
+ page counts as page 1
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset FormulaMacro
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Defines a new command for horizontal lines, change thickness here
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Centre everything on the page
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%	Headings
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\shape smallcaps
+\size largest
+Instituto Tecnológico de Buenos Aires
+\shape default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[1.5cm]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Main heading such as the name of your university/college
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\shape smallcaps
+\size larger
+22.59 Electrónica I
+\shape default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[0.5cm]
+\end_layout
+
+\end_inset
+
+  
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size huge
+Experiencia de Laboratorio N°1
+\size default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[0.4cm]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Title of your document
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+HRule
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[1.5cm]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%	Author(s)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "c"
+hor_pos "l"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "40text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align left
+
+\shape italic
+\size large
+Grupo 5:
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+
+\shape smallcaps
+\size large
+Fernandez
+\shape default
+, Lucero Guadalupe
+\shape smallcaps
+ 
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+Leg.
+ 57485
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+
+\shape smallcaps
+\size large
+Lago, 
+\shape default
+Valentina
+\begin_inset Newline newline
+\end_inset
+
+Leg.
+ 57249
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+
+\shape smallcaps
+\size large
+Romarís, 
+\shape default
+Juan Manuel
+\shape smallcaps
+ 
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+Leg.
+ 57108 
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+
+\shape smallcaps
+\size large
+Vigón
+\shape default
+, Tomás 
+\begin_inset Newline newline
+\end_inset
+
+Leg.
+ 57327
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+
+\size large
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Your name
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+ 
+\begin_inset Box Frameless
+position "c"
+hor_pos "l"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "40text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align right
+
+\shape italic
+\size large
+Profesores:
+\end_layout
+
+\begin_layout Plain Layout
+\align right
+
+\size large
+Alcocer, Fernando 
+\end_layout
+
+\begin_layout Plain Layout
+\align right
+
+\size large
+Gardella, Pablo
+\end_layout
+
+\begin_layout Plain Layout
+\align right
+
+\size large
+Oreglia, Eduardo
+\end_layout
+
+\begin_layout Plain Layout
+\align right
+
+\size large
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Supervisor's name
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% If you don't want a supervisor, uncomment the two lines below and comment
+ the code above
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%{
+\backslash
+large
+\backslash
+textit{Author}}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%John 
+\backslash
+textsc{Smith} % Your name
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%	Date
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\size large
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+large{Presentado: 
+\backslash
+today}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{minipage}{0.4125
+\backslash
+textwidth}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{minipage}
+\end_layout
+
+\end_inset
+
+
+\size default
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Date, change the 
+\backslash
+today to a set date if you want to be precise
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%	Logo
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+vfill
+\backslash
+vfill
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+includegraphics[width=0.2
+\backslash
+textwidth]{placeholder.jpg}
+\backslash
+
+\backslash
+[1cm] % Include a department/university logo - this will require the graphicx
+ package
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset VSpace vfill
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+
+\lang spanish-mexico
+Introducción
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+El objetivo del presente trabajo es introducirnos en los circuitos analógicos
+ con diodos y transistores bipolares.
+ A continuación se realiza una breve descripción de los elementos utilizados
+ a lo largo de este trabajo practico.
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish-mexico
+Diodos
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish-mexico
+Diodo ideal
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Es el elemento no lineal mas sencillo y fundamental.
+ Al igual que el resistor, el diodo tiene dos terminales; pero a diferencia
+ de aquel, el voltaje que aparece en sus terminales tiene una curva característi
+ca i-v no lineal.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+La característica del diodo ideal se puede interpretar como sigue: si un
+ voltaje negativo se aplica al diodo, no circula corriente y el diodo se
+ comporta como un circuito abierto.
+ Se dice que los diodos que operan en este modo operan en inversa.
+ Un diodo ideal tiene corriente cero cuando opera en inversa y se dice que
+ esta en corte.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Por otro lado, si una corriente positiva se aplica al diodo ideal, en sus
+ terminales aparece una caída de voltaje igual a cero.
+ En otras palabras, el diodo ideal se comporta como un cortocircuito.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\lang spanish-mexico
+\begin_inset Graphics
+	filename diodo_ideal.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+Diodo ideal: (a) símbolo del diodo (b) curva característica i-v (c) circuito
+ equivalente en la direccion inversa (d) circuito equivalente en la direccion
+ directa
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish-mexico
+Diodo real
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+La curva de un diodo real se muestra en la siguiente imagen donde algunas
+ escalas fueron comprimidas y otras expandidas para apreciar los detalles
+ de la misma.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\lang spanish-mexico
+\begin_inset Graphics
+	filename diodo_union.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+Relación i-v de un diodo real
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Como se indica en la figura, consta de tres regiones distintas:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+a) Región polarizada directamente (
+\begin_inset Formula $v>0$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+La región de operación de polarización directa se registra cuando el voltaje
+ terminal es positivo.
+ En esta región, la relación i-v se aproxima de modo muy cercano con:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\begin{equation}
+I_{D}=I_{S}(e^{\frac{V_{D}}{\eta V_{T}}}-1)\label{eq diodo}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Donde:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula $I_{S}$
+\end_inset
+
+ es una constante para un diodo dado a una temperatura dada y suele recibir
+ el nombre de corriente de saturación.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula $V_{T}$
+\end_inset
+
+ es una constante denominada voltaje térmico dada por 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+V_{T}=\frac{kT}{q}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Donde 
+\begin_inset Formula $k$
+\end_inset
+
+ es la constante de Boltzmann (
+\begin_inset Formula $k=1.38x10^{-23}\frac{J}{K}$
+\end_inset
+
+), y T la temperatura absoluta en Kelvin y 
+\begin_inset Formula $q$
+\end_inset
+
+ la magnitud de la carga electrónica.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula $\eta$
+\end_inset
+
+ tiene un valor entre 1 y 2 dependiendo del material y la estructura física
+ del diodo.
+ Operando en condiciones normales, consideramos 
+\begin_inset Formula $\eta=1$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+La corriente para un 
+\begin_inset Formula $v$
+\end_inset
+
+ menor de 0.5V es tan pequeña que es insignificante y a este valor se lo
+ llama voltaje de conducción.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+En un modelo simple para el diodo, se supone que un diodo en estado de conducció
+n tiene una caída de aproximadamente 0.7V en sus terminales.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+b) Región polarizada inversamente (
+\begin_inset Formula $v<0$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+La región de operación inversa se presenta cuando el voltaje del diodo se
+ hace negativo.
+ El termino exponencial se hace tan pequeño que es despreciable si se compara
+ con la unidad y la corriente del diodo se convierte en:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+I_{D}\simeq-I_{S}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+La corriente inversa aumenta un poco con un aumento en magnitud del voltaje
+ inverso.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+3) Región de ruptura (
+\begin_inset Formula $v<-Vzk$
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+La región de ruptura se presenta cuando la magnitud del voltaje inverso
+ excede un valor umbral especifico al diodo en particular y recibe el nombre
+ de voltaje de ruptura (
+\begin_inset Formula $Vzk$
+\end_inset
+
+).
+ El subíndice Z es por Zener (que en breve se explicara) y K es por rodilla
+ (knee en ingles).
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+En la región de ruptura aumenta con gran rapidez la corriente inversa y
+ es muy pequeño el aumento correspondiente en caída del voltaje.
+ Por lo tanto, es necesario limitar la corriente inversa de la región de
+ ruptura a un valor consistente con la disipación permisible de potencia.
+ 
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish-mexico
+Diodo zener
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Los diodos que operan específicamente en la región de ruptura reciben el
+ nombre de diodos Zener.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\lang spanish-mexico
+\begin_inset Graphics
+	filename diodo__zener.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+(a) símbolo del diodo Zener (b) Curva característica i-v de un diodo en
+ la region de ruptura
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+La muy pronunciada curva i-v que el diodo exhibe en la región de ruptura,
+ y la caída de voltaje casi constante que esto indica, sugiere que estos
+ diodos se pueden usar en el diseño de reguladores de voltaje.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Observamos que a corrientes mayores que la corriente 
+\begin_inset Formula $I_{ZK}$
+\end_inset
+
+ de rodilla (especificada en la hoja de datos), la curva i-v es casi una
+ linea recta.
+ El fabricante también suele especificar el voltaje 
+\begin_inset Formula $V_{Z}$
+\end_inset
+
+ a una corriente especificada de prueba 
+\begin_inset Formula $I_{ZT}$
+\end_inset
+
+.
+ Esta coordenada sera el punto Q marcado.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+A medida que la corriente que pasa por el Zener se desviá de 
+\begin_inset Formula $I_{ZT}$
+\end_inset
+
+ cambiara el voltaje en sus terminales, aunque ligeramente.
+ Al cambio de corriente 
+\begin_inset Formula $\triangle I$
+\end_inset
+
+, el voltaje del Zener cambia en 
+\begin_inset Formula $\triangle V$
+\end_inset
+
+ según:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+\triangle V=r_{z}\triangle I
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Donde 
+\begin_inset Formula $r_{z}$
+\end_inset
+
+ es el inverso de la pendiente de la curva casi lineal i-v en el punto Q.
+ Esta recibe el nombre de resistencia dinámica del Zener y su valor se especific
+a en las hojas de datos del dispositivo.
+ Cuanto menor sea el valor de 
+\begin_inset Formula $r_{z}$
+\end_inset
+
+ mas constante permanece el voltaje Zener a medida que varia su corriente
+ y así es mas ideal en su operación.
+ 
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish-mexico
+Transistores bipolares
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+El transistor bipolar consta de dos uniones pn construidas de manera especial
+ y conectadas en serie, espalda con espalda.
+ La corriente es conducida por electrones y huecos y de aquí deriva su nombre
+ 'bipolar'.
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish-mexico
+Transistor npn en modo activo
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+El voltaje 
+\begin_inset Formula $V_{BE}$
+\end_inset
+
+ ocasiona que la base tipo p se encuentre a un potencial mas alto que el
+ emisor tipo n, con lo cual se polariza directamente la unión entre emisor
+ y base.
+ El voltaje 
+\begin_inset Formula $V_{CB}$
+\end_inset
+
+ entre colector y base ocasiona que el colector tipo n se encuentre mas
+ alto en potencial que la base tipo p, con lo cual se polariza inversamente
+ la unión colector y base.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\lang spanish-mexico
+\begin_inset Graphics
+	filename npn.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+Circulación de corriente en un transistor npn en modo activo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+a) Corriente de colector:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+La mayor parte de los electrones de difusión llegaran a la frontera de la
+ región de agotamiento entre colector y base.
+ Debido a que el colector es mas positivo que la base, estos electrones
+ exitosos serán barridos de la región de agotamiento de la unión entre colector
+ y base (CBJ) y pasan al colector.
+ Así serán 'recolectados' para constituir la corriente de colector 
+\begin_inset Formula $i_{C}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+i_{C}=I_{S}e^{V_{BE}/V_{T}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+donde 
+\begin_inset Formula $I_{S}$
+\end_inset
+
+ es la corriente de saturación dada por 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+I_{S}=\frac{A_{E}qD_{n}n_{i}^{2}}{N_{A}W}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+donde 
+\begin_inset Formula $n_{i}$
+\end_inset
+
+ es la densidad de portadores intrínsecos, 
+\begin_inset Formula $N_{A}$
+\end_inset
+
+ la concentración de contaminación en la base, 
+\begin_inset Formula $A_{E}$
+\end_inset
+
+ el área de sección transversal de la unión entre base y emisor, q la magnitud
+ de la carga electrónica, 
+\begin_inset Formula $D_{n}$
+\end_inset
+
+ la difusividad electrónica de la base y W el ancho efectivo de la base.
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+b) Corriente de base:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+La misma consta de dos componentes, 
+\begin_inset Formula $i_{B1}$
+\end_inset
+
+ se debe a los huecos inyectados desde la región de la base en la región
+ del emisor e 
+\begin_inset Formula $i_{B2}$
+\end_inset
+
+ se debe a huecos que tienen que ser proporcionados por el circuito exterior
+ para sustituir los huecos perdidos de la base por el proceso de recombinación.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+i_{B}=i_{B1}+i_{B2}=I_{S}\left(\frac{D_{p}}{D_{n}}\frac{N_{A}}{N_{D}}\frac{W}{L_{P}}+\frac{1}{2}\frac{W^{2}}{D_{n}\tau_{b}}\right)e^{V_{BE}/V_{T}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+donde 
+\begin_inset Formula $D_{p}$
+\end_inset
+
+ es la difusividad de huecos en el emisor, Lp la longitud de difusión de
+ huecos en el emisor, 
+\begin_inset Formula $N_{D}$
+\end_inset
+
+ la contaminación del emisor y 
+\begin_inset Formula $\tau_{b}$
+\end_inset
+
+ el tiempo promedio para que un electrón minoritario se recombine con un
+ hueco mayoritario en la base.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+c) Corriente de emisor
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Como la corriente que entra a un transistor debe salir del mismo, la corriente
+ de emisor 
+\begin_inset Formula $i_{E}$
+\end_inset
+
+ es igual a la suma de la corriente en el colector y la corriente en la
+ base.
+ 
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+i_{E}=i_{C}+i_{B}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Al comparar las ecuaciones vemos que:
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+i_{B}=\frac{i_{C}}{\beta}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+i_{E}=\frac{\beta+1}{\beta}i_{C}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula 
+\[
+i_{C}=\alpha i_{E}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Formula $\beta$
+\end_inset
+
+ recibe el nombre de ganancia de corriente de emisor comun y 
+\begin_inset Formula $\alpha$
+\end_inset
+
+ ganancia de corriente de base comun.
+\end_layout
+
+\begin_layout Subsubsection
+
+\lang spanish-mexico
+Transistor pnp en modo activo
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Funciona de manera semejante al npn descripto anteriormente.
+ Las relaciones entre corriente y voltaje del transistor pnp seran identicas
+ al las de npn excepto que 
+\begin_inset Formula $V_{BE}$
+\end_inset
+
+ tiene que ser sustituido por 
+\begin_inset Formula $V_{EB}.$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+
+\lang spanish-mexico
+Análisis de Curvas Características
+\end_layout
+
+\begin_layout Section
+
+\lang spanish-mexico
+Diodo 1N4007
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish-mexico
+Circuito utilizado
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Para medir la curva característica del diodo especificado se armó el siguiente
+ circuito, colocando una resistencia en serie al mismo con un valor adecuado
+ (
+\begin_inset Formula $10k\Omega$
+\end_inset
+
+) para limitar la corriente que circulaba por el dispositivo.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\lang spanish-mexico
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\lang spanish-mexico
+\begin_inset Graphics
+	filename circuito medicion diodo.png
+	lyxscale 60
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+Circuito utilizado para medir la curva característica del diodo 1N4007.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish-mexico
+Procedimiento y Resultados
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Se varió la tensión de entrada entre -1V y 2V.
+ A continuación, se midió la corriente y se realizó la curva característica
+ (corriente en función de la tensión) del mismo.
+ A su vez, se superpuso con la simulación realizada, obteniendo la siguiente
+ figura.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\lang spanish-mexico
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\lang spanish-mexico
+\begin_inset Graphics
+	filename curva diodo.png
+	lyxscale 60
+	scale 28
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+Curva característica medida y simulada del diodo 1N4007.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish-mexico
+Análisis de Resultados
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Se puede notar la forma exponencial de la curva otorgada por la ecuación
+\lang spanish
+ 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq diodo"
+
+\end_inset
+
+
+\lang spanish-mexico
+ , que si bien no tiene en cuenta la resistencia en serie, tiene una forma
+ general similar.
+ Además cuando se alcanza la tensión de ruptura (
+\begin_inset Formula $V_{D}\approx0.7V$
+\end_inset
+
+) comienza a conducir corriente de manera abrupta a a medida que aumenta
+ el potencial entre sus bornes.
+ La diferencia entre la curva medida y la simulada puede atribuirse a diferencia
+s entre el modelo utilizado en la simulación y la realidad y/o a la tolerancia
+ en su valor de tensión de ruptura respecto del modelo utilizado en la simulació
+n.
+\end_layout
+
+\begin_layout Section
+
+\lang spanish-mexico
+Diodo Zener 6.8V
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish-mexico
+Circuito utilizado
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+En el caso del diodo Zener el circuito utilizado fue similar al del diodo,
+ utilizando el mismo valor de resistencia en serie (
+\begin_inset Formula $10k\Omega$
+\end_inset
+
+) para limitar la corriente que circulaba por el semiconductor.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\lang spanish-mexico
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\lang spanish-mexico
+\begin_inset Graphics
+	filename circuito zener.png
+	lyxscale 60
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+Circuito utilizado para medir la curva característica del Zener 3.9V.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish-mexico
+Procedimiento y Resultados
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Teniendo en cuenta que el diodo Zener actúa como un diodo rectificador normal
+ en la zona directa y que este puede trabajar no destructivamente en la
+ zona de ruptura inversa se midió su curva corriente-tensión en el rango
+ de los 
+\begin_inset Formula $-6.9V$
+\end_inset
+
+ a 
+\begin_inset Formula $1V$
+\end_inset
+
+.
+ Tras realizar las mediciones se graficó la curva obtenida, superponiendola
+ con la curva obtenida en simulaciones utilizando un diodo Zener de misma
+ tensión de ruptura.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\lang spanish-mexico
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang spanish-mexico
+\begin_inset Graphics
+	filename curva zener.png
+	lyxscale 50
+	scale 28
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+Curva característica medida y simulada del diodo Zener de 3.9V.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish-mexico
+Análisis de Resultados
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Observando las curvas obtenidas para el rango de tensiones de la zona directa
+ del diodo puede observarse una elevada correspondencia entre la curva medida
+ y la curva ideal.
+ Por otro lado en la zona de ruptura inversa puede observarse que a pesar
+ de que ambas curvas convergen a una misma tensión máxima en inversa, en
+ la simulación la inflexión en la curva es mucho más pronunciada que lo
+ se logró medir en la realidad.
+ La diferencia obtenida en las curvas puede atribuirse a diferencias entre
+ el modelo utilizado en la simulación o a errores de medición o aproximaciones
+ realizadas en las mediciones del circuito.
+\end_layout
+
+\begin_layout Section
+
+\lang spanish-mexico
+Transistor bipolar BC557
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish-mexico
+Circuito utilizado
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Por último, en el caso del transistor bipolar, el circuito utilizado fue
+ el siguiente, donde para trabajar en la zona activa directa se polarizó
+ la juntura-emisor base en forma directa y la juntura colector-base en forma
+ inversa.
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\lang spanish-mexico
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\noindent
+\align center
+
+\lang spanish-mexico
+\begin_inset Graphics
+	filename circuito medicion transistor.png
+	lyxscale 60
+	scale 40
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+Circuito utilizado para medir la curva característica del transistor bipolar
+ BC557.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish-mexico
+Procedimiento y Resultados
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Manteniendo una fuente de tensión continua de 
+\begin_inset Formula $1V$
+\end_inset
+
+ constante se varió la resistencia de base 
+\begin_inset Formula $R_{b}$
+\end_inset
+
+ para medir el transistor bajo distintas condiciones de polarización, donde
+ se tomaron resistencias 
+\begin_inset Formula $R_{b}$
+\end_inset
+
+ de 
+\begin_inset Formula $15k\varOmega$
+\end_inset
+
+ y de 
+\begin_inset Formula $1k\varOmega$
+\end_inset
+
+ Habiendo fijado la corriente de base se varió la tensión entre colector
+ y emisor, donde se midió la corriente en 
+\begin_inset Formula $R_{C}$
+\end_inset
+
+ y se graficó en función de la tensión colector-emisor (
+\begin_inset Formula $V_{CE}$
+\end_inset
+
+).
+ Superponiendo con las simulaciones se graficaron las siguientes curvas:
+\end_layout
+
+\begin_layout Standard
+\noindent
+\align center
+
+\lang spanish-mexico
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+
+\lang spanish-mexico
+\begin_inset Graphics
+	filename curva transistor 15k rb.png
+	lyxscale 80
+	scale 28
+
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset Graphics
+	filename curva transistor rb 100k.png
+	lyxscale 28
+	scale 28
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+Curvas características medidas y simuladas del transistor bipolar para diferente
+s corrientes de Base.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+
+\lang spanish-mexico
+Análisis de Resultados
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+Observando las curvas puede apreciarse que en el rango de tensiones medidas
+ la curva teórica condice con la obtenida en la simulación 
+\color red
+ALGO DE CHAMUYO ACA
+\end_layout
+
+\begin_layout Standard
+
+\lang spanish-mexico
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part
+Amplificador Mono-etapa
+\end_layout
+
+\begin_layout Standard
+Presentado el circuito amplificador mono-etapa que se ve en la figura a
+ continuación, se procedieron a realizar cálculos teóricos, simulaciones
+ y mediciones del circuito con el fin de comprender el funcionamiento del
+ mismo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Circuito a usar.png
+	lyxscale 80
+	scale 40
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Amplificador mono-etapa propuesto
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde puede apreciarse que presenta una configuración emisor común y presenta
+ una ganancia en tensión a determinar en la resistencia de carga 
+\begin_inset Formula $R_{L}$
+\end_inset
+
+ respecto a una tensión de entrada 
+\begin_inset Formula $V_{S}$
+\end_inset
+
+ en el modo de operación de pequeña señal.
+\end_layout
+
+\begin_layout Section
+Análisis teórico
+\end_layout
+
+\begin_layout Standard
+Para comenzar se realizó un análisis teórico del circuito presentado, determinan
+do el régimen de polarización del mismo, luego el modelo incremental equivalente
+ utilizado para el transistor BJT en cuestión y finalmente utilizando este
+ modelo para analizar el circuito incremental resultante, del cual se obtuvo
+ la ganancia en tensión e Impedancias de entrada y salida.
+\end_layout
+
+\begin_layout Subsection
+Polarización
+\end_layout
+
+\begin_layout Standard
+Analizando el circuito presentado, en régimen permanente se llegó al siguiente
+ circuito de polarización equivalente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename circuito de polarización.png
+	lyxscale 50
+	scale 25
+
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset space \space{}
+\end_inset
+
+
+\begin_inset Graphics
+	filename circuito polarización simplificado.png
+	lyxscale 50
+	scale 25
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Circuito de Polarización obtenido
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde la figura de la derecha es un circuito simplificado del circuito de
+ la izquierda tomando un equivalente de Thévenin con:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+V_{th}=V_{cc}.\frac{R_{2}}{R_{1}+R_{2}}=909.4mV
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+R_{th}=R_{1}||R_{2}=7.58k\varOmega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Teniendo en cuenta esto y las relaciones entre las corrientes de base 
+\begin_inset Formula $I_{bq}$
+\end_inset
+
+, emisor 
+\begin_inset Formula $I_{eq}$
+\end_inset
+
+ y colector 
+\begin_inset Formula $I_{cq}$
+\end_inset
+
+ del transistor que tienen la forma:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+I_{cq}=hfe.I_{bq}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+I_{eq}=(hfe+1)I_{bq}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde 
+\begin_inset Formula $hfe$
+\end_inset
+
+ es la ganancia de corriente entre base y colector, que buscando en las
+ hojas de datos del transistor usado se encontró un valor típico de 
+\begin_inset Formula $150$
+\end_inset
+
+ veces.
+ Teniendo en cuenta la tensión de juntura emisor base 
+\begin_inset Formula $V_{BEon}=660mV$
+\end_inset
+
+ ,por lo que se encontró en las hojas de datos, se pueden obtener los valores
+ de las corrientes del circuito obteniendo:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+I_{bq}=\frac{V_{th}-V_{BEon}}{R_{E}(hfe+1)+R_{th}}=1.32\mu A
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+I_{cq}=0.198mA
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+I_{eq}=0.199mA
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Sabiendo estas corrientes de trabajo se planteó el cálculo de la tensión
+ 
+\begin_inset Formula $V_{ceq}$
+\end_inset
+
+ obteniéndose la siguiente relación:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+V_{ceq}=12V-I_{cq}.R_{C}-I_{eq}.R_{E}=6.415V
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Modelo Incremental
+\end_layout
+
+\begin_layout Standard
+Habiendo hallado el punto de trabajo del circuito de polarización se procedió
+ a plantear el modelo incremental del transistor para pequeña señal, expresándol
+o con sus parámetros híbridos como se ve en la figura:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename modelo usado.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Modelo híbrido del transistor usado
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde utilizando los valores obtenidos previamente del circuito de polarización
+ se obtuvieron aproximaciones de los parámetros híbridos equivalentes:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+hie=\frac{V_{T}}{I_{bq}}=20k\Omega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+\frac{1}{hoe}\thickapprox\frac{V_{A}}{I_{cq}}=303k\varOmega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde 
+\begin_inset Formula $V_{A}$
+\end_inset
+
+ es la tensión de early del transistor en cuestión.
+ Como no se encontró su valor en las hojas de datos se tomó un valor estándar
+ para esta tensión, siendo 
+\begin_inset Formula $V_{A}=60V$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsection
+Frecuencia de trabajo
+\end_layout
+
+\begin_layout Standard
+Habiendo encontrado un modelo incremental para el transistor en cuestión
+ se simuló la respuesta en frecuencia del circuito, con el fin de observar
+ el comportamiento del mismo a frecuencias medias obteniéndose:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename Respuesta en frecuencia.png
+	lyxscale 50
+	scale 35
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Respuesta en Frecuencia simulada del circuito
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde se observa que para frecuencias medias la ganancia de tensión del
+ circuito es aproximadamente constante en un valor de cercano a 
+\begin_inset Formula $36dB$
+\end_inset
+
+.
+ Teniendo en cuenta esto se decidió hacer un análisis del circuito a una
+ frecuencia de 
+\begin_inset Formula $25kHz$
+\end_inset
+
+, donde analizando los efectos de los capacitores presentes en el circuito
+ se obtuvo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="3">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+//
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Capacidad
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $|Z|$
+\end_inset
+
+ a 
+\begin_inset Formula $25kHz$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $C_{in}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $47nF$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $135\varOmega$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $C_{E}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $5\mu F$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.3\varOmega$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $C_{out}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $47nF$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $135\varOmega$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Impedancias de capacitores a 
+\begin_inset Formula $25kHz$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Observando estas impedancias obtenidas puede observarse que el módulo de
+ la impedancia de 
+\begin_inset Formula $C_{E}$
+\end_inset
+
+ a 
+\begin_inset Formula $25kHz$
+\end_inset
+
+ es mucho menor a la resistencia en paralelo 
+\begin_inset Formula $R_{E}$
+\end_inset
+
+ que este capacitor tiene, por lo que a esta frecuencia este capacitor puede
+ ser considerado como un cable.
+ Además la impedancia del capacitor de salida 
+\begin_inset Formula $C_{out}$
+\end_inset
+
+ es mucho menor en módulo que la resistencia de carga 
+\begin_inset Formula $R_{L}$
+\end_inset
+
+ por lo cual este también puede ser despreciado.
+\end_layout
+
+\begin_layout Subsection
+Circuito Incremental
+\end_layout
+
+\begin_layout Standard
+Habiendo observado los efectos de la frecuencia de excitación en el circuito,
+ se decidió resolver el circuito incremental para frecuencias medias, específica
+mente para 
+\begin_inset Formula $25kHz$
+\end_inset
+
+, donde usando el modelo híbrido del transistor obtenido previamente se
+ obtuvo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename circuito incremental.png
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Circuito Incremental obtenido
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Del circuito obtenido puede encontrarse su ganancia en tensión, donde para
+ hacer esto primero se plantea la relación de tensiones entre la salida
+ del circuito y la tensión 
+\begin_inset Formula $V_{be}$
+\end_inset
+
+ base emisor, partiendo de las relaciones
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+V_{0}=-hfe.I_{b}.(\frac{1}{hoe}||R_{C})
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+V_{be}=I_{b}.hie
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Obteniendo:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+\frac{V_{0}}{V_{be}}=-\frac{hfe(\frac{1}{hoe}||R_{C})}{hie}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Llamando 
+\begin_inset Formula $Z_{1}=R_{g}+\frac{1}{SC_{in}}$
+\end_inset
+
+ se obtuvo una relación entrada salida final de la forma:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+\frac{V_{0}}{V_{s}}=-\frac{hfe(R_{L}||\frac{1}{hoe}||R_{C})}{hie}.\frac{R_{2}||R_{1}||hie}{Z_{1}+R_{1}||R_{2}||hie}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde puede observarse que la salida se encuentra invertida en relación
+ a la señal de entrada, donde tomando módulo a la expresión y evaluándola
+ para 
+\begin_inset Formula $25kHz$
+\end_inset
+
+ se obtuvo una ganancia teórica de 
+\begin_inset Formula $52.9$
+\end_inset
+
+
+\color red
+ 
+\color inherit
+veces.
+\end_layout
+
+\begin_layout Standard
+Además de la ganancia en tensión pueden encontrarse las impedancias de entrada
+ y salida del circuito, estas teniendo la forma:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+Z_{out}=\frac{1}{hoe}||R_{C}=24.79k\varOmega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula 
+\[
+Z_{in}=R_{2}||R_{1}||hie=5.496k\varOmega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Mediciones del circuito
+\end_layout
+
+\begin_layout Standard
+Habiendo realizado los cálculos teóricos del circuito en cuestión se procedió
+ a medir el mismo.
+ Teniendo en cuenta el modelo de pequeña señal utilizado se excitó al circuito
+ con una señal senoidal de 
+\begin_inset Formula $20mVpp$
+\end_inset
+
+ de 
+\begin_inset Formula $25kHz$
+\end_inset
+
+.
+ Teniendo en cuenta esto se midió la respuesta en frecuencia del circuito,
+ obteniéndose:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename ganancia.png
+	lyxscale 50
+	scale 28
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Amplitud de la respuesta en Frecuencia medida
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename fase.png
+	lyxscale 50
+	scale 28
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Fase de la respuesta en Frecuencia medida
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde observando los gráficos puede apreciarse que la curva teórica condice
+ con la obtenida tras simular el circuito en cuestión.
+ En particular se observó la ganancia del circuito a 
+\begin_inset Formula $25kHz$
+\end_inset
+
+ para el cual previamente fue realizado el cálculo teórico.
+ En las mediciones se midió una ganancia de 
+\begin_inset Formula $35dB$
+\end_inset
+
+(56.2 veces) mientras en la simulación se obtuvo una ganancia de 
+\begin_inset Formula $36dB$
+\end_inset
+
+(63 veces).
+ Las discrepancias en las mediciones en relación a lo simulado pueden atribuirse
+ a las tolerancias de las resistencias utilizadas o debido a diferencias
+ que presenta el modelo de simulación del transistor respecto a la realidad.
+ Considerando que en el cálculo teórico se obtuvo una ganancia de 
+\begin_inset Formula $52.9$
+\end_inset
+
+ veces (en módulo), la discrepancia presente entre este y otros valores
+ puede deberse a que los parámetros híbridos obtenidos teóricamente son
+ meramente aproximaciones y pueden tener diferencias a los reales del transistor.
+ 
+\end_layout
+
+\begin_layout Standard
+Además de medir la ganancia en tensión se midieron las impedancias de entrada
+ y salida para 
+\begin_inset Formula $25kHz$
+\end_inset
+
+, punto para el cual los cálculos teóricos fueron previamente realizados,
+ obteniendo:
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Formula $Z_{out}=24.4k\varOmega$
+\end_inset
+
+ y 
+\begin_inset Formula $Z_{in}=5.47k\varOmega$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde se corroborá que las impedancias de entrada y salida se asemejan a
+ las obtenidas teóricamente previamente.
+ Para estas frecuencias al realizar las simulaciones de estas impedancias
+ se obtuvo 
+\begin_inset Formula $Z_{in}=6.11k\varOmega$
+\end_inset
+
+ y 
+\begin_inset Formula $Z_{out}=24.3k\varOmega$
+\end_inset
+
+, valores que se corresponden y asemejan a los obtenidos previamente en
+ el cálculo teórico y medición del circuito.
+\end_layout
+
+\begin_layout Standard
+En lo que respecta a tensiones de entrada admisibles del circuito se consideró
+ considerar solamente tensiones de entrada que a la salida no presenten
+ una señal muy distorsionada donde se tomó el índice 
+\begin_inset Formula $THD=\frac{\sum_{i=1}P_{i}}{P_{1}}.100$
+\end_inset
+
+, donde las potencias son las de los armónicos presenten en la señal y estas
+ están referidas a resistencias de 
+\begin_inset Formula $1\Omega$
+\end_inset
+
+.
+ De las simulaciones se obtuvo que para la tensión utilizada en las mediciones
+ de 
+\begin_inset Formula $20mVpp$
+\end_inset
+
+ el índice 
+\begin_inset Formula $THD$
+\end_inset
+
+ de la señal de salida era de 
+\begin_inset Formula $1\%$
+\end_inset
+
+.
+ Variando la tensión de entrada se tabularon los valores de THD observados
+ en la señal de salida en la simulación:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tensión de entrada 
+\begin_inset Formula $[mV]$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Índice de 
+\begin_inset Formula $THD$
+\end_inset
+
+ medido a la salida
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+10
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1\%$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+20
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2.9\%$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+30
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $6.4\%$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+40
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $10.5\%$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Índice THD para distintas tensiones de entrada
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Observando la tabla previamente obtenido se aprecia que para tensiones de
+ entrada de 
+\begin_inset Formula $40mV$
+\end_inset
+
+ la señal de salida se encuentra distorsionada en un 
+\begin_inset Formula $10\%$
+\end_inset
+
+ respecto al armónico fundamental que esta presenta, siendo este un valor
+ elevado de distorsión.Si se quisiese usar este circuito con un uso de precisión
+ esta distorsión no sería la más adecuada.
+ Teniendo en cuenta esto, y que para mayores tensiones de entrada la señal
+ de salida se encuentra aún más distorsionada se tomó que un rango aceptable
+ de trabajo, con distorsión no muy elevada se encontraría en el rango de
+ tensiones menores a 
+\begin_inset Formula $40mV$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Part
+Respuesta en Frecuencia de un Diodo en Inversa
+\end_layout
+
+\begin_layout Standard
+En esta sección se midió la respuesta en frecuencia del circuito en cuestión:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename circuito punto 3.png
+	scale 50
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Circuito a medir
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde el propósito de la medición es medir la respuesta en frecuencia de
+ un diodo conectado en Inversa.
+ Al medir esto se tuvo en cuenta que en esta conección el diodo conduce
+ una muy pequeña pero existente corriente de inversa, la cual con la elevada
+ resistencia de 
+\begin_inset Formula $400k\varOmega$
+\end_inset
+
+ podría llegar generar una caída de tensión respecto a lo que se consideraría
+ en un diodo ideal.
+ Además se recordó que el diodo presenta una capacidad de juntura, de una
+ magnitud del orden de los 
+\begin_inset Formula $12pF$
+\end_inset
+
+ por lo que se encontró en las hojas de datos, que en combinación con la
+ resistencia fijada forman un filtro pasabajos RC de orden 1.Teniendo todo
+ esto en cuenta se esperó medir una respuesta con carácter pasabajo con
+ una frecuencia de corte en 
+\begin_inset Formula $\frac{1}{2\pi.500k\varOmega.12pF}=26kHz$
+\end_inset
+
+.
+ A la curva obtenida en la medición se la superpuso con curvas obtenidas
+ en simulaciones presentadas en los siguientes gráficos:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename amplitud punto 3.png
+	lyxscale 50
+	scale 28
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Amplitud de Respuesta en Frecuencia
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename fase punto 3.png
+	lyxscale 50
+	scale 28
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Fase de Respuesta en Frecuencia
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde puede observarse que la curva medida tiene la forma de un filtro pasabajos
+ pero que este presenta una frecuencia de corte menor a lo obtenido en la
+ simulación correspondiente.
+ Al observar las discrepancias obtenidas en las curvas y recordando que
+ la capacidad de juntura del diodo es de una magnitud muy pequeña se consideró
+ simular el circuito considerando la impedancia de las puntas de osciloscopio.
+ Considerando que las mediciones fueron realizadas con las puntas x1 del
+ el gráfico previo puede observarse que las curvas medidas se corresponden
+ a las curvas obtenidas simulando las puntas x1.
+ Teniendo en cuenta este error de medición se consideró simular la respuesta
+ del sistema considerando puntas x10, donde se obtuvo una frecuencia de
+ corte mayor que la obtenida previamante pero sin embargo esto continuó
+ siendo menor a la obtenida en la simulación ideal.
+\end_layout
+
+\begin_layout Standard
+Tras realizar la medición y simulaciones pertinentes de este punto se concluyó
+ que a pesar de lograr medir una respuesta pasa-bajos, esta respuesta estaba
+ principalmente regida por la impedancia de las puntas del osciloscopio.
+ Como la capacidad de juntura del diodo es de una magnitud muy pequeña,
+ la capacidad que aportan las puntas es más que notable y altera las mediciones
+ de una manera muy significante.
+\end_layout
+
+\end_body
+\end_document
