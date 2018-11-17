@@ -1,6 +1,6 @@
 * C:\Users\lugfe\Documents\GitHub\Electro1-TP2\Darlington.asc
-Q1 Vc2 N002 Ve1 0 BC547C
-Q2 Vc2 Ve1 Ve2 0 BC547B
+Q1 Vc2 N002 Ve1 0 BC547B
+Q2 Vc2 Ve1 Ve2 0 BC547C
 R1 Vc2 N002 1360k
 R3 Vs Vg 3.4k
 V1 Vc2 0 15

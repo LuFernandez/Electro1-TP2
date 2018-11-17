@@ -1,0 +1,3364 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language spanish
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 19mm
+\topmargin 25mm
+\rightmargin 19mm
+\bottommargin 25mm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%	TITLE PAGE
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{titlepage}
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Suppresses displaying the page number on the title page and the subsequent
+ page counts as page 1
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset FormulaMacro
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Defines a new command for horizontal lines, change thickness here
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+center
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Centre everything on the page
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%	Headings
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\shape smallcaps
+\size largest
+Instituto Tecnológico de Buenos Aires
+\shape default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[1.5cm]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Main heading such as the name of your university/college
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\shape smallcaps
+\size larger
+22.59 Electrónica I
+\shape default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[0.5cm]
+\end_layout
+
+\end_inset
+
+  
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\size huge
+Experiencia de Laboratorio N°2
+\size default
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[0.4cm]
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+% Title of your document
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+HRule
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+
+\backslash
+
+\backslash
+[1.5cm]
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%	Author(s)
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status collapsed
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "c"
+hor_pos "l"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "40text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align left
+
+\shape italic
+\size large
+Grupo 5:
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+
+\shape smallcaps
+\size large
+Fernandez
+\shape default
+, Lucero Guadalupe
+\shape smallcaps
+ 
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+Leg.
+ 57485
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+
+\shape smallcaps
+\size large
+Lago, 
+\shape default
+Valentina
+\begin_inset Newline newline
+\end_inset
+
+Leg.
+ 57249
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+
+\shape smallcaps
+\size large
+Romarís, 
+\shape default
+Juan Manuel
+\shape smallcaps
+ 
+\shape default
+
+\begin_inset Newline newline
+\end_inset
+
+Leg.
+ 57108 
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+
+\shape smallcaps
+\size large
+Vigón
+\shape default
+, Tomás 
+\begin_inset Newline newline
+\end_inset
+
+Leg.
+ 57327
+\end_layout
+
+\begin_layout Plain Layout
+\align left
+
+\size large
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Your name
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+ 
+\begin_inset Box Frameless
+position "c"
+hor_pos "l"
+has_inner_box 1
+inner_pos "c"
+use_parbox 0
+use_makebox 0
+width "40text%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\align right
+
+\shape italic
+\size large
+Profesores:
+\end_layout
+
+\begin_layout Plain Layout
+\align right
+
+\size large
+Alcocer, Fernando 
+\end_layout
+
+\begin_layout Plain Layout
+\align right
+
+\size large
+Gardella, Pablo
+\end_layout
+
+\begin_layout Plain Layout
+\align right
+
+\size large
+Oreglia, Eduardo
+\end_layout
+
+\begin_layout Plain Layout
+\align right
+
+\size large
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Supervisor's name
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% If you don't want a supervisor, uncomment the two lines below and comment
+ the code above
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%{
+\backslash
+large
+\backslash
+textit{Author}}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%John 
+\backslash
+textsc{Smith} % Your name
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%	Date
+\end_layout
+
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\begin_inset VSpace vfill
+\end_inset
+
+
+\size large
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+large{Presentado: 
+\backslash
+today}
+\backslash
+
+\backslash
+
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+begin{minipage}{0.4125
+\backslash
+textwidth}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{5mm}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{minipage}
+\end_layout
+
+\end_inset
+
+
+\size default
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+% Date, change the 
+\backslash
+today to a set date if you want to be precise
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%	Logo
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%------------------------------------------------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+vfill
+\backslash
+vfill
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%
+\backslash
+includegraphics[width=0.2
+\backslash
+textwidth]{placeholder.jpg}
+\backslash
+
+\backslash
+[1cm] % Include a department/university logo - this will require the graphicx
+ package
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+%-------------------------------------------------------------------------------
+---------
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset VSpace vfill
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+end{titlepage}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introducción
+\end_layout
+
+\begin_layout Standard
+El objetivo del presente trabajo es comprobar en la práctica algunos de
+ los aspectos más destacados de circuitos amplificadores utilizando transistores
+ dentro de un marco de escasos recursos.
+ A continuación se realiza una breve descripción de los elementos utilizados
+ a lo largo de este trabajo práctico.
+\end_layout
+
+\begin_layout Subsection
+Par Darlington
+\end_layout
+
+\begin_layout Standard
+El par Darlington se basa en la conexión en cascada de dos BJT aprovechando
+ el efecto de amplificación de corriente del transistor en el cual la corriente
+ de colector es beta veces la de base, 
+\begin_inset Formula $\beta\,i_{B}=i_{C}$
+\end_inset
+
+.
+ El emisor de uno de los transistores se conecta con la base del otro y
+ además comparten colector de manera tal que la corriente amplificada por
+ el primer transistor se amplifica aún más por el segundo.
+ Se puede pensar al par Darlington como un solo transistor BJT con una gran
+ ganancia de corriente.
+ A continuación se muestra la configuración descrita:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/parDarlington.png
+	lyxscale 20
+	scale 8
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Par Darlington
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Transistor J-Fet
+\end_layout
+
+\begin_layout Standard
+El transistor de efecto campo utiliza el voltaje que se aplica a su terminal
+ de entrada para controlar la corriente a través de este.
+ La corriente de salida fluye por lo que se denomina el 'canal' del transistor
+ que se agranda o achica dependiendo de la tensión controladora del terminal
+ 
+\begin_inset Quotes eld
+\end_inset
+
+Gate
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Se pueden clasificar los J-Fet por su canal, los tipo n y tipo p; se trabajará
+ con los canal n cuya corriente es conducida por electrones.
+ Análogamente al transistor BJT el emisor y colector se pueden pensar como
+ el 
+\begin_inset Quotes eld
+\end_inset
+
+Drain
+\begin_inset Quotes erd
+\end_inset
+
+ y 
+\begin_inset Quotes eld
+\end_inset
+
+Source
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/JFET Symbol.gif
+	scale 60
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Símbolo
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/jfet diagram.png
+	scale 120
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Representación
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/JFET_n-channel.svg.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Curvas características
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+J-Fet
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+La tensión de compuerta en la que la corriente llega a cero se denomina
+ "tensión de pinch-off", 
+\begin_inset Formula $V_{p}$
+\end_inset
+
+.
+ Debido al tipo de canal la tensión 
+\begin_inset Formula $V_{GS}$
+\end_inset
+
+ debe ser negativa y esta puede variar entre 
+\begin_inset Formula $(-V_{p},0)$
+\end_inset
+
+, para valores más negativos que 
+\begin_inset Formula $V_{p}$
+\end_inset
+
+ el canal se estrangula impidiendo el pasaje de corriente.
+ Se puede observar que para un valor dado de tensión en 
+\begin_inset Quotes eld
+\end_inset
+
+Gate
+\begin_inset Quotes erd
+\end_inset
+
+ la corriente es casi constante en un amplio rango de 
+\begin_inset Formula $V_{DS}$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+La fórmula que describe el comportamiento de J-Fet es 
+\begin_inset Formula $I_{d}=I_{dss}(1-\frac{V_{gs}}{V_{p}})^{2}$
+\end_inset
+
+.
+ El valor de 
+\begin_inset Formula $I_{DSS}$
+\end_inset
+
+ representa la corriente cuando la puerta está cortocircuitada a tierra
+ y será proporcionado por el fabricante.
+\end_layout
+
+\begin_layout Section
+Análisis teórico
+\end_layout
+
+\begin_layout Standard
+Haciendo uso de las propiedades de los elementos mencionados anteriormente
+ se procedió a implementar un amplificador de corriente.
+ El amplificador se basa en el par Darlington con un J-Fet en el emisor
+ del segundo transistor.
+ 
+\end_layout
+
+\begin_layout Standard
+En breves palabras, la idea es ganar en corriente con el par Darlington,
+ polarizándolo con el J-Fet, que actúa como fuente de corriente, permitiendo
+ que gane más y asegurando la polarización.
+\end_layout
+
+\begin_layout Standard
+Se analizará la polarización, el modelo incremental y el análisis incremental
+ de la siguiente topología.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/circuito.png
+	lyxscale 50
+	scale 70
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Circuito amplificador propuesto
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Polarización 
+\end_layout
+
+\begin_layout Subsubsection
+Cálculo Teórico
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Analizando el circuito presentado, se llegó al siguiente circuito de polarizació
+n equivalente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/circuito pol.png
+	lyxscale 40
+	scale 90
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Circuito analizado para la polarización
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Para comenzar con nuestro análisis, se plantearon las siguientes ecuaciones:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+V_{GS}=-I_{D}R & \,\,\,\,\,\,\,(1)\\
+\\
+I_{D}=I_{DSS}\left(1-\frac{V_{GS}}{V_{P}}\right)^{2} & \,\,\,\,\,\,\,(2)
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Teniendo los datos de 
+\begin_inset Formula $I_{DSS}$
+\end_inset
+
+ y 
+\begin_inset Formula $V_{P}$
+\end_inset
+
+ a partir de la hoja de datos del JFET: 
+\begin_inset Formula $I_{DSS}=20mA$
+\end_inset
+
+ y 
+\begin_inset Formula $V_{P}=-8V$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Despejando de las ecuaciones (1) y (2) los valores de 
+\begin_inset Formula $I_{D}$
+\end_inset
+
+ y 
+\begin_inset Formula $V_{GS}$
+\end_inset
+
+ sabiendo que 
+\begin_inset Formula $R=3.4k\varOmega$
+\end_inset
+
+ se obtuvo:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+I_{D}=1.67mA
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{GS}=-5.678V
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Habiendo obtenido la corriente de Drain del transistor JFET se nota que
+ en polarización, esta corriente es la corriente de emisor del transistor
+ BJT 
+\begin_inset Formula $Q_{2}$
+\end_inset
+
+.Buscando en las hojas de datos se encontró la ganancia de corriente 
+\begin_inset Formula $\beta$
+\end_inset
+
+ de los transistores bipolares utilizados, con lo que se pudieron encontrar
+ las siguientes relaciones de corrientes del circuito:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\beta=110
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{I_{C_{1}}}{\beta}=I_{B_{1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+I_{B_{2}}=I_{C_{1}}\,\,\,\,\,\,\,\Longrightarrow\,\,\,\,\,\,\,I_{B_{2}}=\beta I_{B_{1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\frac{I_{C_{2}}}{\beta}=I_{B_{2}}\,\,\,\,\,\,\Longrightarrow\,\,\,\,\,\,\,\,I_{C_{2}}=\beta^{2}I_{B_{1}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+I_{C_{2}}=I_{D}=1.67mA
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En definitiva, nos quedan:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+I_{B_{1}}=138\eta A\\
+I_{B_{2}}=15.18\mu A\\
+I_{C_{1}}=15.18\mu A\\
+I_{C_{2}}=1.67mA
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Habiendo encontrado las corrientes del circuito, y teniendo en cuenta que
+ 
+\begin_inset Formula $V_{CC}=15V$
+\end_inset
+
+ y 
+\begin_inset Formula $-V_{ee}=-15V$
+\end_inset
+
+ y que 
+\begin_inset Formula $R_{B}=1.36M\varOmega$
+\end_inset
+
+ recorremos la malla de entrada del circuito de la figura y obtenemos:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{DS}=V_{CC}+V_{ee}-I_{B_{1}}R_{B}-2V_{BE_{on}}-RI_{D}=22.73V
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Notemos que el valor de 
+\begin_inset Formula $V_{DS}$
+\end_inset
+
+ es mayor al módulo de 
+\begin_inset Formula $V_{P}.$
+\end_inset
+
+ Eso nos indica que, como era deseado, estamos trabajando en la zona de
+ saturación del transistor JFET.
+ Para los cálculos se tomó 
+\begin_inset Formula $V_{BE_{on}}=0.7V$
+\end_inset
+
+ ya que este era el valor máximo que garantizaba el fabricante en la hoja
+ de datos de los transistores bipolares.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Por otro lado, recorremos las mallas de salida de los transistores BJT y
+ obtenemos las siguientes ecuaciones:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+V_{CC}-V_{CE_{1}}-V_{BE_{2}}-RI_{D}=0\\
+\\
+V_{CC}-V_{CE_{2}}-I_{D}R=0
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde se obtuvieron los siguientes valores de tensión colector-emisor para
+ los transistores bipolares:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{CE_{1}}=8.62V
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+V_{CE_{2}}=9.32V
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Con los valores obtenidos para 
+\begin_inset Formula $I_{B}$
+\end_inset
+
+ y 
+\begin_inset Formula $V_{CE}$
+\end_inset
+
+ de los transistores, se puede ver como nuestros transistores caen en la
+ zona de operación segura.
+ A continuación se mostrará el gráfico de la hoja de datos con el cual se
+ verificó lo antes mencionado.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/datasheer.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Verificación de zona de operación segura.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Además se controló que la potencia disipada por los transistores bipolares
+ no supere la máxima potencia que pueden disipar los dispositivos, que según
+ la hoja de datos a 
+\begin_inset Formula $25\text{°C}$
+\end_inset
+
+ de temperatura ambiente es de 
+\begin_inset Formula $625mW$
+\end_inset
+
+.
+ Calculando la potencia disipada por cada transistor de la forma 
+\begin_inset Formula $P_{i}=I_{C_{i}}.V_{CE_{i}}$
+\end_inset
+
+se encontró:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+P_{1}=130\mu W\\
+P_{2}=15.56mW
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde se verifica que ambos transistores se encuentran lejos de los límites
+ máximos de disipación de potencia permitidos por sus encapsulados.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Simulaciones
+\end_layout
+
+\begin_layout Standard
+Habiendo hecho los cálculos teóricos de la polarización del circuito se
+ procedió a simularlo.
+ 
+\color red
+CHEQUEAR
+\end_layout
+
+\begin_layout Subsection
+Modelo Incremental
+\end_layout
+
+\begin_layout Standard
+Definiendo los estimadores 
+\begin_inset Formula $r_{o_{1}}$
+\end_inset
+
+ y 
+\begin_inset Formula $hîe_{1}$
+\end_inset
+
+ de la siguiente manera, y tomando 
+\begin_inset Formula $V_{A}=80V$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\frac{1}{hôe_{1}}=r_{o_{1}}=\frac{V_{A}}{I_{CQ_{1}}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+hîe_{1}=(1+hfe_{1})\frac{V_{T}}{I_{CQ_{1}}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+y de manera análoga para 
+\begin_inset Formula $r_{o_{2}}$
+\end_inset
+
+ y 
+\begin_inset Formula $hîe_{2}$
+\end_inset
+
+; con los valores de corrientes de colector ya calculadas, obtenemos los
+ valores para los estimadores:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\begin{cases}
+r_{o_{1}}=5.27M\varOmega & hîe_{1}=190k\varOmega\\
+r_{o_{2}}=47.9k\varOmega & hîe_{2}=1728\varOmega
+\end{cases}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Circuito Incremental
+\end_layout
+
+\begin_layout Subsubsection
+Cálculo teórico
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/circuito incremental.png
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Circuito incremental.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+En principio, definimos la ganancia de tensión sin y con el generador, y
+ la ganancia de corriente, respectivamente.
+ Además se aclara que se toma como frecuencia de trabajo los 
+\begin_inset Formula $4kHz$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+\begin{cases}
+\Delta V\triangleq\frac{V_{o}}{V_{i}}\\
+\Delta V_{s}\triangleq\frac{V_{o}}{V_{s}}\\
+\Delta I\triangleq\frac{I_{d}'}{I_{b_{1}}}
+\end{cases}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como en la configuración utilizada un transistor JFET se encuentra en el
+ emisor del bipolar de salida, para nuestro circuito incremental la resistencia
+ 
+\begin_inset Formula $R_{E}$
+\end_inset
+
+ termina siendo la resistencia 
+\begin_inset Formula $r_{ds}$
+\end_inset
+
+ del JFET.
+ Como esta resistencia es muy elevada, al calcular 
+\begin_inset Formula $R_{d'}$
+\end_inset
+
+,el paralelo de esta con 
+\begin_inset Formula $r_{o2}$
+\end_inset
+
+, es aproximadamente 
+\begin_inset Formula $r_{o2}$
+\end_inset
+
+, por lo que se terminó tomando 
+\begin_inset Formula $R_{d'}=r_{o2}$
+\end_inset
+
+.
+ Previo al cálculo de la ganancia de tensión también se calculo la impedancia
+ de entrada 
+\begin_inset Formula $R_{i}$
+\end_inset
+
+, donde haciendo los pasajes a nivel de corriente apropiados se llega a
+ un valor:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Ri=hie_{1}+hie_{2}(1+hfe_{1})+Rd'(1+hfe_{1})(1+hfe_{2})=590.56M\varOmega
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Entonces, teniendo ambos valores de impedancias, e utilizando variables
+ comodín, calculamos la ganancia de tensión, obteniéndose:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Delta V=\frac{V_{o}}{i_{b_{2}}}.\frac{i_{b_{2}}}{i_{b_{1}}}.\frac{i_{b_{1}}}{V_{i}}=\frac{i_{b_{2}}(1+hfe_{2})Rd'}{i_{b_{2}}}.\frac{(1+hfe_{1})}{Ri}=0.9993
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Que acorde a un circuito colector común resulta menor a la unidad.
+ De manera análoga, podemos calcular la ganancia respecto de la tensión
+ del generador, sabiendo que 
+\begin_inset Formula $\frac{V_{i}}{V_{s}}=\frac{Ria}{Ria+Rs}$
+\end_inset
+
+, siendo 
+\begin_inset Formula $Ria=Ri//R_{B}$
+\end_inset
+
+.
+ Se observa que para el punto de trabajo deseado de 
+\begin_inset Formula $4kHz$
+\end_inset
+
+ las impedancias de los capacitores presentes en el circuito (con una capacidad
+ de 
+\begin_inset Formula $4.7\mu F$
+\end_inset
+
+) son despreciables siendo su impedancia en módulo 
+\begin_inset Formula $8.4\Omega$
+\end_inset
+
+, por lo que no fueron considerados al realizar las cuentas:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Ria=1.36M\varOmega
+\]
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Delta V_{s}=\frac{V_{o}}{V_{i}}.\frac{V_{i}}{V_{s}}=\Delta V.\frac{Ria}{Ria+Rs}=0.998
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Además, resulta la ganancia de corriente
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\Delta I=\frac{I_{d}'}{I_{b_{1}}}=\frac{I_{d}'}{I_{b_{2}}}.\frac{I_{b_{2}}}{I_{b_{1}}}=(1+hfe_{1})(1+hfe_{2})=12.3k
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Cabe aclarar que para el cálculo de las ganancias no se tuvieron en cuenta
+ los valores de 
+\begin_inset Formula $r_{o_{1}}$
+\end_inset
+
+ y 
+\begin_inset Formula $r_{o_{2}}$
+\end_inset
+
+, pues complicaban el cálculo.
+ Por otro lado, se calculó la impedancia de salida activa.
+ En la figura superior, se observa la de salida activa Roa, que es la vista
+ desde 
+\begin_inset Formula $ro2$
+\end_inset
+
+ desde la salida.
+ Para el análisis de la impedancia de salida, se pasiva la tensión de entrada,
+ y se coloca una fuente a la salida, con polaridad invertida a lo convencional.
+ Esta tensión de prueba es 
+\begin_inset Formula $Vop$
+\end_inset
+
+, y se define 
+\begin_inset Formula $Iop$
+\end_inset
+
+ como la corriente que circula por la misma, calculando de esta manera 
+\begin_inset Formula $Ro^{*}$
+\end_inset
+
+, y sabiendo que la impedancia de salida activa será 
+\begin_inset Formula $Roa=Ro^{*}//r_{o_{2}}.$
+\end_inset
+
+ Con ésto en mente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Ro^{*}\triangleq\frac{Vop}{Iop}=\frac{I_{b_{1}}hie_{1}+I_{b_{1}}(1+hfe_{1})hie_{2}}{I_{b_{1}}(1+hfe_{1})(1+hfe_{2})}=40\varOmega
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Y como ya dijimos, Roa es el paralelo entre 
+\begin_inset Formula $Ro^{*}$
+\end_inset
+
+ y 
+\begin_inset Formula $r_{o_{2}}$
+\end_inset
+
+.
+ Con lo que el valor de la impedancia activa de salida resulta en:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Roa=39.9\varOmega
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection
+Simulaciones
+\end_layout
+
+\begin_layout Standard
+Habiendo realizado los cálculos teóricos pertinentes en relación al circuito
+ incremental se realizaron las simulaciones del circuito en LTSpice, donde
+ se realizaron ambos análisis transitorios y barridos en frecuencia de las
+ magnitudes pertinentes del circuito obteniéndose, las siguientes curvas:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/gananciaV.png
+	lyxscale 20
+	scale 21
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Ganancia de Tensión
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/gananciaI.png
+	lyxscale 20
+	scale 21
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Ganancia de Corriente
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/zin.png
+	lyxscale 20
+	scale 21
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Impedancia de Entrada
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace defskip
+\end_inset
+
+
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/zout.png
+	lyxscale 50
+	scale 21
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Impedancia de Salida
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Curvas simuladas del Circuito
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde puede apreciarse que para el punto de trabajo escogido de 
+\begin_inset Formula $4kHz$
+\end_inset
+
+ los valores obtenidos en los cálculos teóricos para la transferencia de
+ tensión e impedancia de entrada condicen de gran manera con los obtenidos
+ en los cálculos teóricos.
+ Sin embargo puede apreciarse que para el caso de la impedancia de salida
+ se encuentra una discrepancia del 
+\begin_inset Formula $75\%$
+\end_inset
+
+, la discrepancia pudiendose contribuir al considerar 
+\begin_inset Formula $r_{ds}$
+\end_inset
+
+ como lo suficientemente grande para no afectar el paralelo de salida.
+ Además se encuentra que la ganancia de corriente simulada no se asemeja
+ a la ideal 
+\begin_inset Formula $(1+hfe_{1})(1+hfe_{2})$
+\end_inset
+
+, sino que se obtiene un valor de aproximadamente 
+\begin_inset Formula $600$
+\end_inset
+
+ veces siendo este la mitad del obtenido en el cálculo teórico.
+ Además de estas curvas se sugirió probar la respuesta transitoria del sistema
+ frente a una señal senoidal de 
+\begin_inset Formula $1V_{pp}$
+\end_inset
+
+ con frecuencia de 
+\begin_inset Formula $4kHz$
+\end_inset
+
+ obteniéndose:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/transient.png
+	lyxscale 30
+	scale 30
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Respuesta transitoria del Circuito a 
+\begin_inset Formula $4kHz$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Donde se observa que la relación entrada salida es casi unitaria y que además
+ la señal de salida no se encuentra saturada.
+\end_layout
+
+\begin_layout Section
+Mediciones 
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+El circuito resultante realizado en protoboard fue el siguiente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/IMG_9925.JPG
+	lyxscale 10
+	scale 8
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+Foto del circuito implementado en protoboard
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Las mediciones fueron realizadas con una entrada senoidal de 4kHz de frecuencia
+ y 1Vpp.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="10" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R_{s}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $560\varOmega$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $C$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $4.7\mu F$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R_{b}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1360K\varOmega$
+\end_inset
+
+ = 
+\begin_inset Formula $860K\varOmega+860K\varOmega$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $Q_{1}=Q_{2}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $BC547$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R_{L}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2.2K\varOmega$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $3.4K\varOmega=6.8K\varOmega\Vert6.8K\varOmega$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $+Vcc$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $15V$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-Vee$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $-15V$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $J_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+MPF102
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $V_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Senoidal, 
+\begin_inset Formula $f=4KHz$
+\end_inset
+
+, 
+\begin_inset Formula $V_{pp}=1V$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+Valores utilizados
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Como se muestra en la siguiente figura, se observó una ganancia menor a
+ la unidad pero muy cercana a ella, lo que condice al cálculo teórico, donde
+ la señal del primer canal era la señal de entrada y la señal del segundo
+ canal la señal de salida del circuito.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+placement H
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Graphics
+	filename imagenes/scope_13.png
+	lyxscale 50
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang spanish-mexico
+Ganancia unitaria en tension vista en osciloscopio
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+De la imagen se observa que la relación 
+\begin_inset Formula $\frac{V_{i}}{V_{o}}=300mdB$
+\end_inset
+
+, por lo que recordando que 
+\begin_inset Formula $V_{i}=1V$
+\end_inset
+
+ se obtiene que 
+\begin_inset Formula $V_{o}=0.933V$
+\end_inset
+
+, valor acorde a lo calculado teóricamente difiriendo un 
+\begin_inset Formula $6.5\%$
+\end_inset
+
+.
+ La diferencia entre lo medido y obtenido tras los cálculos puede llegar
+ a atribuirse a aproximaciones realizadas en los cálculos o debido a las
+ tolerancias de ambos componentes pasivos y activos.
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Resultados y análisis de resultados
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float table
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="4" columns="6">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Parámetro
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\triangle V$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\triangle V_{S}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\triangle I$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R_{i_{a}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $R_{o_{a}}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Teórico
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.9993$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.9993$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $12321$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.36M\varOmega$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $39.9\varOmega$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Simulado
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.98$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.963$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $592$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.33M\varOmega$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $70\varOmega$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Medido 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.940V$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.933V$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $283.15$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $293.5k\varOmega$
+\end_inset
+
+
+\color red
+CHEQUEAR
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $85\varOmega$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+
+\lang english
+Datos teoricos, simulados y medidos
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset space ~
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Al comparar los resultados se pueden encontrar diferencias en todos los
+ parámetros.
+ En cuanto a la ganancia, estas diferencias se deben principalmente a que
+ los transistores que conforman el par darlington son diferentes entre sí
+ y tienen diferentes 
+\begin_inset Formula $\beta$
+\end_inset
+
+.
+ Además, estos datos fueron sacados de la hoja de datos, y estos son estimativos
+ en la misma.
+ Por otro lado, en cuanto a las impedancias de salida, el teórico varía
+ respecto del simulado pues el teórico es, en parte, aproximado.
+ Si analizamos las impedancias de entrada, la medida fue de 
+\begin_inset Formula $300k\varOmega$
+\end_inset
+
+, siendo éste un valor elevado.
+\color red
+CHEQUEAR
+\end_layout
+
+\begin_layout Section
+Conclusiones
+\end_layout
+
+\begin_layout Standard
+Como puntos fuertes del circuito se tiene una elevada ganancia de corriente
+ (alrededor de 300 veces) y una alta impedancia de entrada (
+\begin_inset Formula $300k\varOmega$
+\end_inset
+
+
+\color red
+CHEQUEAR
+\color inherit
+).
+ Como desventaja podría mencionarse que al tener dos transistores en cascada,
+ la caída en tensión equivale aproximadamente a 2 veces 
+\begin_inset Formula $V_{BE_{ON}}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+Además, tiene una polarización estable, pues el J-Fet actúa como fuente
+ de corriente, otorgándole la corriente que necesitan los BJT para su correcta
+ polarización,donde también se verifica que los puntos de trabajo de los
+ BJT esten lejos de los de máxima disipación de potencia permitidas por
+ los encapsulados utilizados.
+\end_layout
+
+\begin_layout Standard
+En síntesis, se tiene un circuito estable, logrado con una buena optimización
+ de recursos, al no utilizar la totalidad de los créditos disponibles, con
+ una buena ganancia en corriente y alta impedancia de entrada.
+\end_layout
+
+\end_body
+\end_document
