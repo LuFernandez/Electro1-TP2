@@ -1,10 +1,15 @@
 #LyX 2.3 created this file. For more info see http://www.lyx.org/
-\lyxformat 544
+\lyxformat 508
 \begin_document
 \begin_header
 \save_transient_properties true
 \origin unavailable
 \textclass article
+\begin_preamble
+% Added by lyx2lyx
+\renewcommand{\textendash}{--}
+\renewcommand{\textemdash}{---}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -21,8 +26,6 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
-\use_microtype false
-\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -50,7 +53,6 @@
 \suppress_date false
 \justification true
 \use_refstyle 1
-\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
@@ -59,10 +61,7 @@
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\is_math_indent 0
-\math_numbering_side default
-\quotes_style english
-\dynamic_quotes 0
+\quotes_language english
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -208,9 +207,9 @@ Entonces, utilizando variables comodín, calculamos la ganancia de tensión:
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
+\begin{equation}
 \Delta V=\frac{V_{o}}{i_{b_{2}}}.\frac{i_{b_{2}}}{i_{b_{1}}}.\frac{i_{b_{1}}}{V_{i}}=\frac{i_{b_{2}}(1+hfe_{2})Rd'}{i_{b_{2}}}.\frac{(1+hfe_{1})}{Ri}=1.098
-\]
+\end{equation}
 
 \end_inset
 
@@ -229,9 +228,9 @@ que resulta casi unitaria.
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
+\begin{equation}
 \Delta V_{s}=\frac{V_{o}}{V_{i}}.\frac{V_{i}}{V_{s}}=\Delta V.\frac{Ria}{Ria+Rs}=1.0975
-\]
+\end{equation}
 
 \end_inset
 
@@ -244,9 +243,9 @@ Además, resulta la ganancia de corriente
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
+\begin{equation}
 \Delta I=\frac{I_{d}'}{I_{b_{1}}}=\frac{I_{d}'}{I_{b_{2}}}.\frac{I_{b_{2}}}{I_{b_{1}}}=(1+hfe_{1})(1+hfe_{2})=12.3k
-\]
+\end{equation}
 
 \end_inset
 
@@ -280,9 +279,9 @@ Cabe aclarar que para el cálculo de las ganancias no se tuvieron en cuenta
 
 \begin_layout Standard
 \begin_inset Formula 
-\[
+\begin{equation}
 Ri=hie_{1}+hie_{2}(1+hfe_{1})+Rd'(1+hfe_{1})(1+hfe_{2})=299.5M\varOmega
-\]
+\end{equation}
 
 \end_inset
 
@@ -309,7 +308,51 @@ Por otro lado, para el análisis de la impedancia de salida, se pasiva la
 \begin_inset Formula $Vop$
 \end_inset
 
-, calculando de esta manera 
+, y se define 
+\begin_inset Formula $Iop$
+\end_inset
+
+ como la corriente que circula por la misma, calculando de esta manera Ro*,
+ y sabiendo que la impedancia de salida activa será 
+\begin_inset Formula $Roa=Ro^{*}//r_{o_{2}}.$
+\end_inset
+
+ Con ésto en mente:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\[
+Ro^{*}\triangleq\frac{Vop}{Iop}=\frac{I_{b_{1}}hie_{1}+I_{b_{1}}(1+hfe_{1})hie_{2}}{I_{b_{1}}(1+hfe_{1})(1+hfe_{2})}\approx\frac{hie_{2}}{1+hfe_{2}}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Y como ya dijimos, Roa es el paralelo entre 
+\begin_inset Formula $Ro^{*}$
+\end_inset
+
+ y 
+\begin_inset Formula $r_{o_{2}}$
+\end_inset
+
+.
+ Con lo que el valor de la impedancia activa de salida resulta en:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+Roa=8.66\varOmega
+\end{equation}
+
+\end_inset
+
+
 \end_layout
 
 \end_body
